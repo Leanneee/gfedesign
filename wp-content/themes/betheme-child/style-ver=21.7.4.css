@@ -1,0 +1,36 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 1.6.2
+*/
+.button-round button::after {display: none;}
+
+div.wpforms-container-full .wpforms-form button[type="submit"] {
+background-color: #C2C2C0!important;
+border: 1px solid#737070!important;
+color:#000!important;
+font-size: 1em;
+padding: 10px 30px!important;
+border-radius: 50px!important;
+}
+div.wpforms-container-full .wpforms-form .wpforms-required-label {color: #ccc!important; font-weight: 400;}
+div.wpforms-container-full .wpforms-form input[type="text"],div.wpforms-container-full .wpforms-form input[type="email"],div.wpforms-container .wpforms-form .intl-tel-input.allow-dropdown input[type="tel"],div.wpforms-container-full .wpforms-form textarea {
+background-color: #ddd!important;
+box-sizing: border-box;
+border-radius: 2px; color:#333!important;
+font-size: 16px;
+border: 1px solid #ccc!important;
+padding: 6px 10px;
+height: 38px;
+}
+
+.fancy_heading_line .title {color:#2C2837;}
+
+#mobile_projects_wrapper .one-second{
+	clear:none;
+	width:50% !important;
+}
